@@ -1,0 +1,54 @@
+.body {
+  min-height: 420px;
+  height: 100%;
+  font-family: "Raleway", sans-serif;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.list {
+  width: 200px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+  font-size: 24px;
+}
+
+.item {
+    min-height: 40px;
+    max-width: 450px;
+    color: rgb(44, 42, 63);
+    background: rgb(133, 246, 161);
+    background: linear-gradient(
+      90deg,
+      rgba(66, 252, 113, 0.219) 0%,
+      rgba(229, 247, 151, 0.158) 100%
+    );
+    border-radius: 12px;
+    margin: 20px 10px;
+  }
+
+  .item a{
+    font-size: 20px;
+    color: rgb(44, 42, 63);
+    text-decoration: none;
+  }
+
+/*.crop{
+    width: 350px;
+    height: 350px;
+  }
+  
+  .crop img {
+    object-fit: contain;
+    border-radius: 10px;
+  }*/
+
+.dialog {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  font-size: 20px;
+}

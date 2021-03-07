@@ -23,6 +23,6 @@
     padding-bottom: 20px;
 }
 
-.navbar a.active{
+.navbar a:current{
     color: goldenrod;
 }

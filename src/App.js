@@ -2,15 +2,16 @@ import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import Body from "./body/Body";
 import Header from "./header/Header";
-import Navbar from "./navbar/Navbar";
+import Footer from "./footer/Footer";
 
-function App() {
+function App(props) {
+
   return (
     <Router>
       <div className="App">
         <Header />
-        <Navbar />
-        <Body />
+        <Body  DialogUsers={props.DialogUsers} messages={props.messages}/>
+        <Footer />
       </div>
     </Router>
   );
